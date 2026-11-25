@@ -33,7 +33,7 @@ def recolor_icon(image, rgb):
     recolored = image.copy()
     recolored.putdata([
         (*fill, a) if (r, g, b) in ICON_BODY_RGB else (r, g, b, a)
-        for r, g, b, a in image.getdata()
+        for r, g, b, a in image.get_flattened_data()
     ])
     return recolored
 

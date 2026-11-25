@@ -101,7 +101,7 @@ def draw_image(canvas, image, x: int, y: int) -> None:
     Pixels are set one at a time because `canvas.SetImage` drops the alpha mask; pixels off
     the panel are left to the backend's `SetPixel`, which ignores them.
     """
-    for index, (r, g, b, a) in enumerate(image.getdata()):
+    for index, (r, g, b, a) in enumerate(image.get_flattened_data()):
         if a == 0:
             continue
         row, col = divmod(index, image.width)

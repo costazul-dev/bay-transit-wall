@@ -1,4 +1,4 @@
-requests
-pyyaml
-python-dotenv
-pillow
+requests==2.34.2
+pyyaml==6.0.4
+python-dotenv==1.2.4
+pillow==13.0.0

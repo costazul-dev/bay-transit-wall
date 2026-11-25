@@ -110,3 +110,7 @@ See [docs/PiSetup.md](docs/PiSetup.md) for hardware constraints, building the
 ## Reference
 
 - [511 SF Bay Open Data Specification - Transit](https://511.org/media/6657/show)
+
+## License
+
+Released under the [MIT License](LICENSE).
