@@ -1,0 +1,15 @@
+[Unit]
+Description=bay-transit-wall transit display
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/bay-transit-wall
+ExecStart=/opt/bay-transit-wall/.venv/bin/python main.py --config /opt/bay-transit-wall/config.yaml
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

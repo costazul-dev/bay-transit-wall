@@ -1,0 +1,104 @@
+{
+  "ServiceDelivery": {
+    "ResponseTimestamp": "2026-11-09T19:38:14Z",
+    "ProducerRef": "SF",
+    "Status": true,
+    "StopMonitoringDelivery": {
+      "version": "1.4",
+      "ResponseTimestamp": "2026-11-09T19:38:14Z",
+      "Status": true,
+      "MonitoredStopVisit": [
+        {
+          "RecordedAtTime": "2026-11-09T19:38:05Z",
+          "MonitoringRef": "00000",
+          "MonitoredVehicleJourney": {
+            "LineRef": "22",
+            "DirectionRef": "IB",
+            "FramedVehicleJourneyRef": {
+              "DataFrameRef": "2026-11-08",
+              "DatedVehicleJourneyRef": "trip-1"
+            },
+            "PublishedLineName": "FILLMORE",
+            "OperatorRef": "SF",
+            "OriginRef": "00000",
+            "OriginName": "Origin",
+            "DestinationRef": "00000",
+            "DestinationName": "Destination",
+            "Monitored": true,
+            "VehicleRef": "vehicle-1",
+            "MonitoredCall": {
+              "StopPointRef": "00000",
+              "StopPointName": "Stop",
+              "VehicleAtStop": "false",
+              "DestinationDisplay": "Destination",
+              "AimedArrivalTime": "2026-11-09T19:41:03Z",
+              "ExpectedArrivalTime": "2026-11-09T19:43:55Z",
+              "AimedDepartureTime": "2026-11-09T19:41:03Z",
+              "ExpectedDepartureTime": null
+            }
+          }
+        },
+        {
+          "RecordedAtTime": "2026-11-09T19:38:05Z",
+          "MonitoringRef": "00000",
+          "MonitoredVehicleJourney": {
+            "LineRef": "22",
+            "DirectionRef": "IB",
+            "FramedVehicleJourneyRef": {
+              "DataFrameRef": "2026-11-08",
+              "DatedVehicleJourneyRef": "trip-2"
+            },
+            "PublishedLineName": "FILLMORE",
+            "OperatorRef": "SF",
+            "OriginRef": "00000",
+            "OriginName": "Origin",
+            "DestinationRef": "00000",
+            "DestinationName": "Destination",
+            "Monitored": true,
+            "VehicleRef": "vehicle-2",
+            "MonitoredCall": {
+              "StopPointRef": "00000",
+              "StopPointName": "Stop",
+              "VehicleAtStop": "false",
+              "DestinationDisplay": "Destination",
+              "AimedArrivalTime": "2026-11-09T19:51:03Z",
+              "ExpectedArrivalTime": "2026-11-09T19:49:51Z",
+              "AimedDepartureTime": "2026-11-09T19:51:03Z",
+              "ExpectedDepartureTime": null
+            }
+          }
+        },
+        {
+          "RecordedAtTime": "2026-11-09T19:38:05Z",
+          "MonitoringRef": "00000",
+          "MonitoredVehicleJourney": {
+            "LineRef": "22",
+            "DirectionRef": "IB",
+            "FramedVehicleJourneyRef": {
+              "DataFrameRef": "2026-11-08",
+              "DatedVehicleJourneyRef": "trip-3"
+            },
+            "PublishedLineName": "FILLMORE",
+            "OperatorRef": "SF",
+            "OriginRef": "00000",
+            "OriginName": "Origin",
+            "DestinationRef": "00000",
+            "DestinationName": "Destination",
+            "Monitored": true,
+            "VehicleRef": "vehicle-3",
+            "MonitoredCall": {
+              "StopPointRef": "00000",
+              "StopPointName": "Stop",
+              "VehicleAtStop": "false",
+              "DestinationDisplay": "Destination",
+              "AimedArrivalTime": "2026-11-09T20:01:03Z",
+              "ExpectedArrivalTime": "2026-11-09T20:01:49Z",
+              "AimedDepartureTime": "2026-11-09T20:01:03Z",
+              "ExpectedDepartureTime": null
+            }
+          }
+        }
+      ]
+    }
+  }
+}
