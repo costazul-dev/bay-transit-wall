@@ -110,3 +110,10 @@ See [docs/PiSetup.md](docs/PiSetup.md) for hardware constraints, building the
 ## Reference
 
 - [511 SF Bay Open Data Specification - Transit](https://511.org/media/6657/show)
+
+## License
+
+Released under the [MIT License](LICENSE).
+
+The BDF fonts in `fonts/` are public-domain X11 "Misc Fixed" fonts and are not covered
+by the MIT License; see [`fonts/README.md`](fonts/README.md).

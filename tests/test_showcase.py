@@ -34,5 +34,5 @@ def test_recolor_icon_replaces_body_pixels_and_keeps_accents():
 
     recolored = recolor_icon(image, [10, 20, 30])
 
-    assert list(recolored.getdata()) == [(10, 20, 30, 255), (10, 20, 30, 128)] + pixels[2:]
-    assert list(image.getdata()) == pixels
+    assert list(recolored.get_flattened_data()) == [(10, 20, 30, 255), (10, 20, 30, 128)] + pixels[2:]
+    assert list(image.get_flattened_data()) == pixels
