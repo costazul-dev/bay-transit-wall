@@ -16,6 +16,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - RGBMatrixEmulator support for local development on macOS.
 - `deploy/bay-transit-wall.service` systemd unit for Raspberry Pi deployment.
 - MIT `LICENSE` and a License section in `README.md`.
+- `fonts/README.md` crediting the public-domain X11 Misc Fixed fonts and their
+  source, hzeller/rpi-rgb-led-matrix.
 
 ### Changed
 - Pinned runtime dependencies in `requirements.txt` and development dependencies in

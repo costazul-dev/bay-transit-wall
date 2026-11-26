@@ -114,3 +114,6 @@ See [docs/PiSetup.md](docs/PiSetup.md) for hardware constraints, building the
 ## License
 
 Released under the [MIT License](LICENSE).
+
+The BDF fonts in `fonts/` are public-domain X11 "Misc Fixed" fonts and are not covered
+by the MIT License; see [`fonts/README.md`](fonts/README.md).
